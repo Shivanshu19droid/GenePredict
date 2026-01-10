@@ -1,0 +1,26 @@
+# Environments
+venv/
+tf_env/
+test_env/
+clean_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Large model artifacts
+*.keras
+*.h5
+*.pkl
+glove*.txt
+model/
+
+# Data (optional – keep only cleaned small CSVs if needed)
+*.xls
+
+# Jupyter
+.ipynb_checkpoints/
+
