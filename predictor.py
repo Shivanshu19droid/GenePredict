@@ -7,6 +7,10 @@ from keras.saving import register_keras_serializable
 from preprocessing import preprocess_input
 import pickle
 
+from model_loader import download_models
+download_models()
+
+
 # ----------- Load Label Encoder ------------
 with open("model/label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)

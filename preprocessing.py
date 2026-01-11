@@ -5,6 +5,9 @@
 import pickle
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+from model_loader import download_models
+download_models()
+
 # Load tokenizer
 with open("model/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
