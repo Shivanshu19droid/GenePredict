@@ -2,5 +2,7 @@ streamlit
 tensorflow
 numpy
 scikit-learn
-openai
+google-generativeai
+python-dotenv
+
 
